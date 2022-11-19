@@ -9,5 +9,6 @@ func main() {
 	// src.Boolean()
 	// src.String()
 	// src.Variable()
-	src.Constant()
+	// src.Constant()
+	src.Conversion()
 }
