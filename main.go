@@ -10,5 +10,6 @@ func main() {
 	// src.String()
 	// src.Variable()
 	// src.Constant()
-	src.Conversion()
+	// src.Conversion()
+	src.TypeDeclaration()
 }
