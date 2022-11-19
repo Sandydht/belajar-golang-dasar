@@ -7,5 +7,6 @@ func main() {
 	// src.HelloWorld()
 	// src.Number()
 	// src.Boolean()
-	src.String()
+	// src.String()
+	src.Variable()
 }
