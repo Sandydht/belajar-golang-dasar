@@ -48,7 +48,12 @@ import "fmt"
 */
 
 func Number() {
+	// Contoh kode program integer
+	fmt.Println("Integer")
 	fmt.Println("Satu =", 1)
 	fmt.Println("Dua =", 2)
+
+	// Contoh kode program floating point
+	fmt.Println("\nFloating Point")
 	fmt.Println("Tiga Koma Lima =", 3.5)
 }
