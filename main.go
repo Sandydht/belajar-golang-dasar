@@ -8,5 +8,6 @@ func main() {
 	// src.Number()
 	// src.Boolean()
 	// src.String()
-	src.Variable()
+	// src.Variable()
+	src.Constant()
 }
