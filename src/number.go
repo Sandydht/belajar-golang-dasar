@@ -43,7 +43,7 @@ import "fmt"
 
 /*
 	Catatan
-	-	Semakin besar kapasitasnya semakin besar penggunaannya di memori
+	- Semakin besar kapasitasnya semakin besar penggunaannya di memori
 	- Penggunaan tipe data di Go-Lang itu case sensitif
 */
 
