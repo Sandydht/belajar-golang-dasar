@@ -11,5 +11,6 @@ func main() {
 	// src.Variable()
 	// src.Constant()
 	// src.Conversion()
-	src.TypeDeclaration()
+	// src.TypeDeclaration()
+	src.MathOperations()
 }
