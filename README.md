@@ -18,11 +18,10 @@
 - Cek menggunakan perintah: go version
 
 # Proses Development Program Go-Lang
-```
-  mermaid
-    flowchart TD;
-      Go Compiler-->|Compile File|main.go;
-      Go Compiler-->|Produce Binary File|main;
+```mermaid
+graph TD;
+  Compiler-->|Compile File|main.go;
+  Compiler-->|Produce Binary file|main;
 ```
 
 # Text Editor atau IDE
