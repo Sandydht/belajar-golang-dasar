@@ -12,5 +12,10 @@ func main() {
 	// src.Constant()
 	// src.Conversion()
 	// src.TypeDeclaration()
-	src.MathOperations()
+	// src.MathOperations()
+	// src.ComparationOperator()
+	// src.BooleanOperator()
+	// src.Array()
+	// src.Slice()
+	src.Map()
 }
