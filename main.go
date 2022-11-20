@@ -17,5 +17,12 @@ func main() {
 	// src.BooleanOperator()
 	// src.Array()
 	// src.Slice()
-	src.Map()
+	// src.Map()
+	// src.IfExpression()
+	// src.SwitchExpression()
+	// src.For()
+	// src.BreakContinue()
+	// src.Function()
+	// src.FunctionParameter()
+	src.FunctionReturnValue()
 }
