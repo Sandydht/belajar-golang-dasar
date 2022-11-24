@@ -24,5 +24,9 @@ func main() {
 	// src.BreakContinue()
 	// src.Function()
 	// src.FunctionParameter()
-	src.FunctionReturnValue()
+	// src.FunctionReturnValue()
+	// src.FunctionReturnMultipleValue()
+	// src.FunctionReturnNamedValue()
+	// src.FunctionVariadic()
+	src.FunctionAsValue()
 }
