@@ -28,5 +28,8 @@ func main() {
 	// src.FunctionReturnMultipleValue()
 	// src.FunctionReturnNamedValue()
 	// src.FunctionVariadic()
-	src.FunctionAsValue()
+	// src.FunctionAsValue()
+	// src.FunctionAsParameter()
+	// src.FunctionAnonymous()
+	src.FunctionRecursive()
 }
