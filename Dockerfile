@@ -2,8 +2,8 @@
 
 FROM golang:1.16-alpine
 
-WORKDIR /belajar-golang-dasar
+WORKDIR /app
 
-COPY . /belajar-golang-dasar/
+COPY . /app/
 
 CMD ["go", "run", "."]
