@@ -4,6 +4,10 @@ FROM golang:1.16-alpine
 
 WORKDIR /app
 
-COPY . /app/
+COPY . .
 
-CMD ["go", "run", "."]
+RUN go build -o /belajar-golang-dasar
+
+EXPOSE 8080
+
+CMD [ "/belajar-golang-dasar" ]
