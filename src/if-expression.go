@@ -2,30 +2,30 @@ package src
 
 import "fmt"
 
-/*
-	If Expression
-	- If adalah salah satu kata kunci yang digunakan untuk percabangan
-	- Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
-	- Hampir di semua bahasa pemrograman mendukung if expression
+/**
+If Expression
+- If adalah salah satu kata kunci yang digunakan untuk percabangan
+- Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
+- Hampir di semua bahasa pemrograman mendukung if expression
 */
 
-/*
-	Else Expression
-	- Blok if akan dieksekusi ketika kondisi if bernilai true
-	- Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
-	- Hal ini bisa dilakukan menggunakan else expression
+/**
+Else Expression
+- Blok if akan dieksekusi ketika kondisi if bernilai true
+- Kadang kita ingin melakukan eksekusi program tertentu jika kondisi if bernilai false
+- Hal ini bisa dilakukan menggunakan else expression
 */
 
-/*
-	Else If Expression
-	- Kadang dalam if, kita butuh membuat beberapa modul
-	- Kasus seperti ini, kita bisa menggunakan else if expression
+/**
+Else If Expression
+- Kadang dalam if, kita butuh membuat beberapa modul
+- Kasus seperti ini, kita bisa menggunakan else if expression
 */
 
-/*
-	If dengan Short Statement
-	- If mendukung short statement sebelum kondisi
-	- Hal ini sangat cocok untuk membuat statement yang sederhana sebelum melakukan pengecekan terhadap kondisi
+/**
+If dengan Short Statement
+- If mendukung short statement sebelum kondisi
+- Hal ini sangat cocok untuk membuat statement yang sederhana sebelum melakukan pengecekan terhadap kondisi
 */
 
 func IfExpression() {

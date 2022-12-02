@@ -2,19 +2,19 @@ package src
 
 import "fmt"
 
-/*
-	Variadic Function
-	- Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs
-	- Varargs artinya datanya bisa menerima lebih dari satu input, atau anggap saja semacam array
-	- Apa bedanya dengan parameter biasa dengan tipe data array ?
-	  - Jika parameter tipe array, kita wajib membuat array terlebih dahulu sebelum mengirimkan ke function
-		- Jika parameter menggunakan varargs, kita bisa langsung mengirim data nya, jika lebih dari satu, cukup gunakan tanda koma
+/**
+Variadic Function
+- Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs
+- Varargs artinya datanya bisa menerima lebih dari satu input, atau anggap saja semacam array
+- Apa bedanya dengan parameter biasa dengan tipe data array ?
+  - Jika parameter tipe array, kita wajib membuat array terlebih dahulu sebelum mengirimkan ke function
+	- Jika parameter menggunakan varargs, kita bisa langsung mengirim data nya, jika lebih dari satu, cukup gunakan tanda koma
 */
 
-/*
-	Slice Parameter
-	- Kadang ada kasus dimana kita menggunakan Variadic Function, namun memiliki variable berupa slice
-	- Kita bisa menjadikan slice sebagai varargs parameter
+/**
+Slice Parameter
+- Kadang ada kasus dimana kita menggunakan Variadic Function, namun memiliki variable berupa slice
+- Kita bisa menjadikan slice sebagai varargs parameter
 */
 
 // Kode Program Variadic Function

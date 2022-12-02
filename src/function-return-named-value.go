@@ -2,10 +2,10 @@ package src
 
 import "fmt"
 
-/*
-	Named Return Values
-	- Biasanya saat kita memberi tahu bahwa sebuah function mengembalikan value, maka kita hanya mendeklarasikan tipe data return value di function
-	- Namun kita juga bisa membuat variable secara langsung di tipe data return function nya
+/**
+Named Return Values
+- Biasanya saat kita memberi tahu bahwa sebuah function mengembalikan value, maka kita hanya mendeklarasikan tipe data return value di function
+- Namun kita juga bisa membuat variable secara langsung di tipe data return function nya
 */
 
 // Kode Program Named Return Values

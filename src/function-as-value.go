@@ -2,10 +2,10 @@ package src
 
 import "fmt"
 
-/*
-	Function Value
-	- Function adalah first class citizen
-	- Function juga merupakan tipe data dan bisa di simpan di dalam variable
+/**
+Function Value
+- Function adalah first class citizen
+- Function juga merupakan tipe data dan bisa di simpan di dalam variable
 */
 
 // Kode Program Function Value

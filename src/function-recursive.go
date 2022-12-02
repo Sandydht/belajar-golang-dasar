@@ -2,11 +2,11 @@ package src
 
 import "fmt"
 
-/*
-	Recursive Function
-	- Recursive function adalah function yang memanggil dirinya sendiri
-	- Kadang dalam pekerjaan, kita sering menemui kasus yang memerlukan recursive function
-	- Contoh kasus yang lebih mudah diselesaikan menggunakan recursive function adalah Factorial
+/**
+Recursive Function
+- Recursive function adalah function yang memanggil dirinya sendiri
+- Kadang dalam pekerjaan, kita sering menemui kasus yang memerlukan recursive function
+- Contoh kasus yang lebih mudah diselesaikan menggunakan recursive function adalah Factorial
 */
 
 // Kode Program Factorial For Loop

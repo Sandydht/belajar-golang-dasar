@@ -31,5 +31,10 @@ func main() {
 	// src.FunctionAsValue()
 	// src.FunctionAsParameter()
 	// src.FunctionAnonymous()
-	src.FunctionRecursive()
+	// src.FunctionRecursive()
+	// src.Closure()
+	// src.Defer()
+	// src.Panic()
+	// src.Recover()
+	src.Comment()
 }

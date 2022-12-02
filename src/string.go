@@ -2,18 +2,18 @@ package src
 
 import "fmt"
 
-/*
-	Tipe Data String
-	- String adalah kumpulan karakter
-	- Jumlah karakter di dalam string bisa nol sampai tak terhingga
-	- Tipe data string di Go-Lang direpresentasikan dengan kata kunci string
-	- Nilai data string di Go-Lang selalu diawali dan diakhiri dengan (petik dua ")
+/**
+Tipe Data String
+- String adalah kumpulan karakter
+- Jumlah karakter di dalam string bisa nol sampai tak terhingga
+- Tipe data string di Go-Lang direpresentasikan dengan kata kunci string
+- Nilai data string di Go-Lang selalu diawali dan diakhiri dengan (petik dua ")
 */
 
-/*
-	Function untuk String
-	- len("string") -> menghitung jumlah karakter di string
-	- "string"[number] -> mengambil karakter pada posisi yang ditentukan
+/**
+Function untuk String
+- len("string") -> menghitung jumlah karakter di string
+- "string"[number] -> mengambil karakter pada posisi yang ditentukan
 */
 
 func String() {

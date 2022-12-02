@@ -2,31 +2,31 @@ package src
 
 import "fmt"
 
-/*
-	Operasi Matematika
-	- + -> penjumlahan
-	- - -> pengurangan
-	- * -> perkalian
-	- / -> pembagian
-	- % -> sisa hasil bagi (modulo)
+/**
+Operasi Matematika
+- + -> penjumlahan
+- - -> pengurangan
+- * -> perkalian
+- / -> pembagian
+- % -> sisa hasil bagi (modulo)
 */
 
-/*
-	Augmented Assignments
-	- a = a + 10 -> a += 10
-	- a = a - 10 -> a -= 10
-	- a = a * 10 -> a *= 10
-	- a = a / 10 -> a /= 10
-	- a = a % 10 -> a %= 10
+/**
+Augmented Assignments
+- a = a + 10 -> a += 10
+- a = a - 10 -> a -= 10
+- a = a * 10 -> a *= 10
+- a = a / 10 -> a /= 10
+- a = a % 10 -> a %= 10
 */
 
-/*
-	Unary Operator
-	- ++ -> a = a + 1
-	- -- -> a = a - 1
-	- - -> negative
-	- + -> positive
-	- ! -> boolean kebalikan
+/**
+Unary Operator
+- ++ -> a = a + 1
+- -- -> a = a - 1
+- - -> negative
+- + -> positive
+- ! -> boolean kebalikan
 */
 
 func MathOperations() {
