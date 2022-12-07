@@ -36,5 +36,7 @@ func main() {
 	// src.Defer()
 	// src.Panic()
 	// src.Recover()
-	src.Comment()
+	// src.Comment()
+	// src.Struct()
+	src.StructMethod()
 }
