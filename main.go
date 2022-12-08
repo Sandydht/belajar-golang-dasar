@@ -48,5 +48,6 @@ func main() {
 	// src.PointerMethod()
 	// src.Import()
 	// src.AccessModifier()
-	src.PackageInitialization()
+	// src.PackageInitialization()
+	src.PackageOs()
 }
