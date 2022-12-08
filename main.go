@@ -38,5 +38,11 @@ func main() {
 	// src.Recover()
 	// src.Comment()
 	// src.Struct()
-	src.StructMethod()
+	// src.StructMethod()
+	// src.Interface()
+	// src.InterfaceKosong()
+	// src.Nil()
+	// src.InterfaceError()
+	// src.TypeAssertions()
+	src.Pointer()
 }
