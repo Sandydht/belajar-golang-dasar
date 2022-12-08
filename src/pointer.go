@@ -33,12 +33,27 @@ Function New
 - Namun function new hanya mengembalikan pointer ke data kosong, artinya tidak ada data awal
 */
 
-// Kode Program Pass by Value
+/*
+*
+Pointer di function
+- Saat kita membuat parameter di function, secara default adalah pass by value, artinya data akan di copy lalu dikirim ke function tersebut
+- Oleh karena itu, jika kita mengubah data di dalam function, data yang aslinya tidak akan pernah berubah
+- Hal ini membuat variable menjadi aman, karena tidak akan bisa diubah
+- Namun kadang kita ingin membuat function yang bisa mengubah data asli parameter tersebut
+- Untuk melakukan ini, kita juga bisa menggunakan pointer di function
+- Untuk menjadikan sebuah parameter sebagai pointer, kita bisa menggunakan operator * di parameternya
+*/
+
 type Address struct {
 	City, Province, Country string
 }
 
+func ChangeAddressToIndonesia(address *Address) {
+	address.Country = "Indonesia"
+}
+
 func Pointer() {
+	// Kode Program Pointer di Variable
 	address1 := Address{
 		City:     "Subang",
 		Province: "Jawa Barat",
@@ -61,4 +76,14 @@ func Pointer() {
 	address4 := new(Address)
 	address4.City = "Bandung"
 	fmt.Println(address4)
+
+	// Kode Program Pointer di Function
+	alamat := Address{
+		City:     "Subang",
+		Province: "Jawa Barat",
+		Country:  "",
+	}
+	alamatPointer := &alamat
+	ChangeAddressToIndonesia(alamatPointer)
+	fmt.Println(alamat)
 }

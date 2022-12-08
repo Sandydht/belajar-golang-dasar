@@ -44,5 +44,9 @@ func main() {
 	// src.Nil()
 	// src.InterfaceError()
 	// src.TypeAssertions()
-	src.Pointer()
+	// src.Pointer()
+	// src.PointerMethod()
+	// src.Import()
+	// src.AccessModifier()
+	src.PackageInitialization()
 }
