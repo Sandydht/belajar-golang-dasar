@@ -9,6 +9,7 @@ import (
 Package String
 - Package string adalah package yang berisikan function - function untuk memanipulasi tipe data String
 - Ada banyak sekali function yang bisa kita gunakan
+- https://golang.org/pkg/strings/
 */
 
 /**
