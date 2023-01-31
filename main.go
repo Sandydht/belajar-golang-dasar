@@ -49,5 +49,8 @@ func main() {
 	// src.Import()
 	// src.AccessModifier()
 	// src.PackageInitialization()
-	src.PackageOs()
+	// src.PackageOs()
+	// src.PackageFlag()
+	// src.PackageStrings()
+	src.PackageStrconv()
 }
