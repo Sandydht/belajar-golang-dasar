@@ -56,5 +56,8 @@ func main() {
 	// src.PackageMath()
 	// src.PackageContainerList()
 	// src.PackageContainerRing()
-	src.PackageSort()
+	// src.PackageSort()
+	// src.PackageTime()
+	// src.PackageReflect()
+	src.PackageRegexp()
 }
