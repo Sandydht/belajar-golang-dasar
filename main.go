@@ -1,6 +1,6 @@
 package main
 
-import "belajar-golang-dasar/src"
+// import HelloWorld "belajar-golang-dasar/src/1-hello-world"
 
 func main() {
 	/* List Materi */
@@ -59,5 +59,5 @@ func main() {
 	// src.PackageSort()
 	// src.PackageTime()
 	// src.PackageReflect()
-	src.PackageRegexp()
+	// src.PackageRegexp()
 }
