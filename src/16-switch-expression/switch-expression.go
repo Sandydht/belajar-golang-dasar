@@ -1,26 +1,8 @@
-package src
+package main
 
 import "fmt"
 
-/**
-Switch expression
-- Selain if expression, untuk melakukan percabangan, kita juga bisa menggunakan switch expression
-- Switch expression sangat sederhana dibandingkan if
-- Biasanya switch expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variable
-*/
-
-/**
-Switch dengan Short Statement
-- Sama dengan if, switch juga mendukung short statement
-*/
-
-/**
-Switch Tanpa Kondisi
-- Kondisi di switch expression tidak wajib
-- Jika kita tidak menggunakan kondisi di switch expression, kita bisa menambahkan kondisi tersebut di setiap case nya
-*/
-
-func SwitchExpression() {
+func main() {
 	// Kode Program Switch
 	name := "Sandy"
 
