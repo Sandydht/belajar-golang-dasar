@@ -1,45 +1,8 @@
-package src
+package main
 
 import "fmt"
 
-/**
-Tipe Data Slice
-- Tipe data slice adalah potongan dari data array
-- Slice mirip dengan array, yang membedakan adalah ukuran slice bisa berubah
-- Slice dan array selalu terkoneksi, dimana slice adalah data yang mengakses sebagian atau seluruh data di array
-*/
-
-/**
-Detail Tipe Data Slice
-Tipe data slice memiliki 3 data, yaitu:
-- Pointer -> petunjuk data pertama di array pada slice
-- Length -> panjang dari slice
-- Capacity -> kapasitas dari slice, dimana length tidak boleh lebih dari capacity
-*/
-
-/**
-Membuat Slice Dari Array
-- array[low:high] -> membuat slice dari array dimulai index low sampai index sebelum high
-- array[low:] -> membuat slice dari array dimulai index low sampai index akhir di array
-- array[:high] -> membuat slice dari array dimulai index 0 sampai index sebelum high
-- array[:] -> membuat slice dari array dimulai index 0 sampai index akhir di array
-*/
-
-/**
-Function Slice
-- len(slice) -> untuk mendapatkan panjang
-- cap(slice) -> untuk mendapatkan kapasitas
-- append(slice, data) -> membuat slice baru dengan menambah data ke posisi terakhir slice, jika kapasitas sudah penuh, maka akan membuat array baru
-- make([]TypeData, length, capacity) -> membuat slice baru
-- copy(destination, source) -> menyalin slice dari source ke destination
-*/
-
-/*
-	Catatan
-	- Saat membuat array, kita harus berhati - hati, jika salah, maka yang kita buat bukanlah array, melainkan slice
-*/
-
-func Slice() {
+func main() {
 	// Kode Program Slice (1)
 	var months = [...]string{
 		"Januari",
