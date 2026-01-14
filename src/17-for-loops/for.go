@@ -1,27 +1,8 @@
-package src
+package main
 
 import "fmt"
 
-/**
-For
-- Dalam bahasa pemrograman, biasanya ada fitur yang bernama perulangan
-- Di Go-Lang fitur perulangan hanya ada satu, yaitu for
-*/
-
-/**
-For dengan Statement
-- Dalam for, kita bisa menambahkan statement, dimana terdapat 2 statement yang bisa ditambahkan di for
-- Init statement, yaitu statement sebelum for di eksekusi
-- Post statement, yaitu statement yang akan selalu di eksekusi di akhir tiap perulangan
-*/
-
-/**
-For Range
-- For bisa digunakan untuk melakukan iterasi terhadap semua data collection
-- Data collection contohnya array, slice, dan map
-*/
-
-func For() {
+func main() {
 	// Kode Program For
 	counter := 1
 	for counter <= 10 {
