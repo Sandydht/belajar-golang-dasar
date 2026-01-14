@@ -5,7 +5,7 @@
 - Main function harus terdapat didalam main package.
 - Titik koma di Golang, tidaklah wajib, artinya kita bisa menambahkan titik koma atau tidak diakhir kode program kita.
 
-# Println
+## Println
 - Untuk menulis tulisan, kita perlu melakukan import module ```fmt``` terlebih dahulu.
 - Mirip ketika kita belajar Java.
 - Materi tentang import, akan kita bahas di bagian tersendiri.
