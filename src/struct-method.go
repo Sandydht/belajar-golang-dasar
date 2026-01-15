@@ -2,14 +2,11 @@ package src
 
 import "fmt"
 
-/**
-Struct Method
-- Struct adalah tipe data seperti tipe data lainnya, dia bisa digunakan sebagai parameter untuk function
-- Namun jika kita ingin menambahkan method ke dalam struct, sehingga seakan - akan sebuah struct memiliki function
-- Method adalah function
-*/
+type Customer struct {
+	Name, Address string
+	Age           int
+}
 
-// Kode Program Struct Method
 type Person struct {
 	Name, Address string
 	Age           int
