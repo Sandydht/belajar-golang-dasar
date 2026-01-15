@@ -1,4 +1,4 @@
-package src
+package main
 
 import "fmt"
 
@@ -16,7 +16,7 @@ func (customer Customer) SayHello() {
 	fmt.Println("Hello, My name is", customer.Name)
 }
 
-func StructMethod() {
+func main() {
 	rully := Customer{Name: "Rully"}
 	rully.SayHello()
 }
